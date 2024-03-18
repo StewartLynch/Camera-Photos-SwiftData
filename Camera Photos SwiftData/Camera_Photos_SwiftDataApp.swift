@@ -11,12 +11,14 @@
 
 
 import SwiftUI
+import SwiftData
 
 @main
 struct Camera_Photos_SwiftDataApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PhotosListView()
         }
+        .modelContainer(for: SampleModel.self)
     }
 }

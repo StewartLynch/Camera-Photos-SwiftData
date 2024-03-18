@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		BB4822C02BA8EE9D0080B8B6 /* Camera_Photos_SwiftDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4822BF2BA8EE9D0080B8B6 /* Camera_Photos_SwiftDataApp.swift */; };
-		BB4822C22BA8EE9D0080B8B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4822C12BA8EE9D0080B8B6 /* ContentView.swift */; };
+		BB4822C22BA8EE9D0080B8B6 /* PhotosListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4822C12BA8EE9D0080B8B6 /* PhotosListView.swift */; };
 		BB4822C42BA8EE9E0080B8B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB4822C32BA8EE9E0080B8B6 /* Assets.xcassets */; };
 		BB4822C72BA8EE9E0080B8B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB4822C62BA8EE9E0080B8B6 /* Preview Assets.xcassets */; };
+		BB4822CE2BA8EECE0080B8B6 /* SampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4822CD2BA8EECE0080B8B6 /* SampleModel.swift */; };
+		BB4822D12BA8EF9C0080B8B6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4822D02BA8EF9C0080B8B6 /* Constants.swift */; };
+		BB4822D52BA902870080B8B6 /* SampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4822D42BA902870080B8B6 /* SampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BB4822BC2BA8EE9D0080B8B6 /* Camera Photos SwiftData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Camera Photos SwiftData.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB4822BF2BA8EE9D0080B8B6 /* Camera_Photos_SwiftDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera_Photos_SwiftDataApp.swift; sourceTree = "<group>"; };
-		BB4822C12BA8EE9D0080B8B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB4822C12BA8EE9D0080B8B6 /* PhotosListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosListView.swift; sourceTree = "<group>"; };
 		BB4822C32BA8EE9E0080B8B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB4822C62BA8EE9E0080B8B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB4822CD2BA8EECE0080B8B6 /* SampleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleModel.swift; sourceTree = "<group>"; };
+		BB4822D02BA8EF9C0080B8B6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BB4822D42BA902870080B8B6 /* SampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				BB4822BF2BA8EE9D0080B8B6 /* Camera_Photos_SwiftDataApp.swift */,
-				BB4822C12BA8EE9D0080B8B6 /* ContentView.swift */,
+				BB4822C12BA8EE9D0080B8B6 /* PhotosListView.swift */,
+				BB4822D42BA902870080B8B6 /* SampleView.swift */,
+				BB4822CD2BA8EECE0080B8B6 /* SampleModel.swift */,
+				BB4822CF2BA8EF880080B8B6 /* ImagePicker_Camera */,
 				BB4822C32BA8EE9E0080B8B6 /* Assets.xcassets */,
 				BB4822C52BA8EE9E0080B8B6 /* Preview Content */,
 			);
@@ -65,6 +74,14 @@
 				BB4822C62BA8EE9E0080B8B6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BB4822CF2BA8EF880080B8B6 /* ImagePicker_Camera */ = {
+			isa = PBXGroup;
+			children = (
+				BB4822D02BA8EF9C0080B8B6 /* Constants.swift */,
+			);
+			path = ImagePicker_Camera;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB4822C22BA8EE9D0080B8B6 /* ContentView.swift in Sources */,
+				BB4822D52BA902870080B8B6 /* SampleView.swift in Sources */,
+				BB4822C22BA8EE9D0080B8B6 /* PhotosListView.swift in Sources */,
+				BB4822CE2BA8EECE0080B8B6 /* SampleModel.swift in Sources */,
 				BB4822C02BA8EE9D0080B8B6 /* Camera_Photos_SwiftDataApp.swift in Sources */,
+				BB4822D12BA8EF9C0080B8B6 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
