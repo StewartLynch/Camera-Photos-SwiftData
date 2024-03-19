@@ -11,6 +11,9 @@
 		BB0FF8352BA928C00091CB82 /* UpdateEditFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0FF8342BA928C00091CB82 /* UpdateEditFormView.swift */; };
 		BB0FF8372BA92A3D0091CB82 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0FF8362BA92A3D0091CB82 /* ImagePicker.swift */; };
 		BB0FF8392BA92DFA0091CB82 /* ModelFormType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0FF8382BA92DFA0091CB82 /* ModelFormType.swift */; };
+		BB0FF83B2BA94D550091CB82 /* CameraPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0FF83A2BA94D550091CB82 /* CameraPermission.swift */; };
+		BB0FF83D2BA950120091CB82 /* UIKitCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0FF83C2BA950120091CB82 /* UIKitCamera.swift */; };
+		BB0FF83F2BA958F70091CB82 /* ZoomableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0FF83E2BA958F70091CB82 /* ZoomableScrollView.swift */; };
 		BB4822C02BA8EE9D0080B8B6 /* Camera_Photos_SwiftDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4822BF2BA8EE9D0080B8B6 /* Camera_Photos_SwiftDataApp.swift */; };
 		BB4822C22BA8EE9D0080B8B6 /* PhotosListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4822C12BA8EE9D0080B8B6 /* PhotosListView.swift */; };
 		BB4822C42BA8EE9E0080B8B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB4822C32BA8EE9E0080B8B6 /* Assets.xcassets */; };
@@ -25,6 +28,9 @@
 		BB0FF8342BA928C00091CB82 /* UpdateEditFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateEditFormView.swift; sourceTree = "<group>"; };
 		BB0FF8362BA92A3D0091CB82 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		BB0FF8382BA92DFA0091CB82 /* ModelFormType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelFormType.swift; sourceTree = "<group>"; };
+		BB0FF83A2BA94D550091CB82 /* CameraPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPermission.swift; sourceTree = "<group>"; };
+		BB0FF83C2BA950120091CB82 /* UIKitCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitCamera.swift; sourceTree = "<group>"; };
+		BB0FF83E2BA958F70091CB82 /* ZoomableScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomableScrollView.swift; sourceTree = "<group>"; };
 		BB4822BC2BA8EE9D0080B8B6 /* Camera Photos SwiftData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Camera Photos SwiftData.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB4822BF2BA8EE9D0080B8B6 /* Camera_Photos_SwiftDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera_Photos_SwiftDataApp.swift; sourceTree = "<group>"; };
 		BB4822C12BA8EE9D0080B8B6 /* PhotosListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosListView.swift; sourceTree = "<group>"; };
@@ -100,6 +106,9 @@
 			children = (
 				BB4822D02BA8EF9C0080B8B6 /* Constants.swift */,
 				BB0FF8362BA92A3D0091CB82 /* ImagePicker.swift */,
+				BB0FF83A2BA94D550091CB82 /* CameraPermission.swift */,
+				BB0FF83E2BA958F70091CB82 /* ZoomableScrollView.swift */,
+				BB0FF83C2BA950120091CB82 /* UIKitCamera.swift */,
 			);
 			path = ImagePicker_Camera;
 			sourceTree = "<group>";
@@ -175,13 +184,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB0FF8352BA928C00091CB82 /* UpdateEditFormView.swift in Sources */,
+				BB0FF83D2BA950120091CB82 /* UIKitCamera.swift in Sources */,
 				BB4822D52BA902870080B8B6 /* SampleView.swift in Sources */,
 				BB4822C22BA8EE9D0080B8B6 /* PhotosListView.swift in Sources */,
 				BB4822CE2BA8EECE0080B8B6 /* SampleModel.swift in Sources */,
 				BB0FF8392BA92DFA0091CB82 /* ModelFormType.swift in Sources */,
 				BB4822C02BA8EE9D0080B8B6 /* Camera_Photos_SwiftDataApp.swift in Sources */,
 				BB0FF8372BA92A3D0091CB82 /* ImagePicker.swift in Sources */,
+				BB0FF83B2BA94D550091CB82 /* CameraPermission.swift in Sources */,
 				BB4822D12BA8EF9C0080B8B6 /* Constants.swift in Sources */,
+				BB0FF83F2BA958F70091CB82 /* ZoomableScrollView.swift in Sources */,
 				BB0FF8332BA926C80091CB82 /* UpdateEditFormViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,6 +331,7 @@
 				DEVELOPMENT_TEAM = RKV4UP49S6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Permission required to take photos with camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -348,6 +361,7 @@
 				DEVELOPMENT_TEAM = RKV4UP49S6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Permission required to take photos with camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

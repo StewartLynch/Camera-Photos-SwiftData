@@ -22,11 +22,13 @@ struct SampleView: View {
         VStack {
             Text(sample.name)
                 .font(.largeTitle)
-            Image(uiImage: sample.image == nil ? Constants.placeholder : sample.image!)
-                .resizable()
-                .scaledToFit()
-                .clipShape(RoundedRectangle(cornerRadius: 12))
-                .padding()
+            ZoomableScrollView {
+                Image(uiImage: sample.image == nil ? Constants.placeholder : sample.image!)
+                    .resizable()
+                    .scaledToFit()
+                    .clipShape(RoundedRectangle(cornerRadius: 12))
+                    .padding()
+            }
             HStack {
                 Button("Edit") {
                     formType = .update(sample)
