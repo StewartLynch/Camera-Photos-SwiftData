@@ -14,6 +14,7 @@
 		BB0FF83B2BA94D550091CB82 /* CameraPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0FF83A2BA94D550091CB82 /* CameraPermission.swift */; };
 		BB0FF83D2BA950120091CB82 /* UIKitCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0FF83C2BA950120091CB82 /* UIKitCamera.swift */; };
 		BB0FF83F2BA958F70091CB82 /* ZoomableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0FF83E2BA958F70091CB82 /* ZoomableScrollView.swift */; };
+		BB120C122BA95B98003CEEF8 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB120C112BA95B97003CEEF8 /* Launch Screen.storyboard */; };
 		BB4822C02BA8EE9D0080B8B6 /* Camera_Photos_SwiftDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4822BF2BA8EE9D0080B8B6 /* Camera_Photos_SwiftDataApp.swift */; };
 		BB4822C22BA8EE9D0080B8B6 /* PhotosListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4822C12BA8EE9D0080B8B6 /* PhotosListView.swift */; };
 		BB4822C42BA8EE9E0080B8B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB4822C32BA8EE9E0080B8B6 /* Assets.xcassets */; };
@@ -31,6 +32,7 @@
 		BB0FF83A2BA94D550091CB82 /* CameraPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPermission.swift; sourceTree = "<group>"; };
 		BB0FF83C2BA950120091CB82 /* UIKitCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitCamera.swift; sourceTree = "<group>"; };
 		BB0FF83E2BA958F70091CB82 /* ZoomableScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomableScrollView.swift; sourceTree = "<group>"; };
+		BB120C112BA95B97003CEEF8 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		BB4822BC2BA8EE9D0080B8B6 /* Camera Photos SwiftData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Camera Photos SwiftData.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB4822BF2BA8EE9D0080B8B6 /* Camera_Photos_SwiftDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera_Photos_SwiftDataApp.swift; sourceTree = "<group>"; };
 		BB4822C12BA8EE9D0080B8B6 /* PhotosListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosListView.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				BB0FF8312BA926AF0091CB82 /* Model Edits */,
 				BB4822CF2BA8EF880080B8B6 /* ImagePicker_Camera */,
 				BB4822C32BA8EE9E0080B8B6 /* Assets.xcassets */,
+				BB120C112BA95B97003CEEF8 /* Launch Screen.storyboard */,
 				BB4822C52BA8EE9E0080B8B6 /* Preview Content */,
 			);
 			path = "Camera Photos SwiftData";
@@ -171,6 +174,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB120C122BA95B98003CEEF8 /* Launch Screen.storyboard in Resources */,
 				BB4822C72BA8EE9E0080B8B6 /* Preview Assets.xcassets in Resources */,
 				BB4822C42BA8EE9E0080B8B6 /* Assets.xcassets in Resources */,
 			);
@@ -335,6 +339,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -365,6 +370,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
