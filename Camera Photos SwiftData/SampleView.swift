@@ -16,6 +16,7 @@ import SwiftData
 struct SampleView: View {
     @Environment(\.modelContext) private var modelContext
     @Environment(\.dismiss) private var dismiss
+    @State private var formType: ModelFormType?
     let sample: SampleModel
     var body: some View {
         VStack {
@@ -28,8 +29,9 @@ struct SampleView: View {
                 .padding()
             HStack {
                 Button("Edit") {
-                    
+                    formType = .update(sample)
                 }
+                .sheet(item: $formType) { $0 }
                 Button("Delete", role: .destructive) {
                     modelContext.delete(sample)
                     try? modelContext.save()

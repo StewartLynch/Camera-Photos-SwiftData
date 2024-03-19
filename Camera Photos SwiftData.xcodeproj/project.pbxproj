@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB0FF8332BA926C80091CB82 /* UpdateEditFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0FF8322BA926C80091CB82 /* UpdateEditFormViewModel.swift */; };
+		BB0FF8352BA928C00091CB82 /* UpdateEditFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0FF8342BA928C00091CB82 /* UpdateEditFormView.swift */; };
+		BB0FF8372BA92A3D0091CB82 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0FF8362BA92A3D0091CB82 /* ImagePicker.swift */; };
+		BB0FF8392BA92DFA0091CB82 /* ModelFormType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0FF8382BA92DFA0091CB82 /* ModelFormType.swift */; };
 		BB4822C02BA8EE9D0080B8B6 /* Camera_Photos_SwiftDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4822BF2BA8EE9D0080B8B6 /* Camera_Photos_SwiftDataApp.swift */; };
 		BB4822C22BA8EE9D0080B8B6 /* PhotosListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4822C12BA8EE9D0080B8B6 /* PhotosListView.swift */; };
 		BB4822C42BA8EE9E0080B8B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB4822C32BA8EE9E0080B8B6 /* Assets.xcassets */; };
@@ -17,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB0FF8322BA926C80091CB82 /* UpdateEditFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateEditFormViewModel.swift; sourceTree = "<group>"; };
+		BB0FF8342BA928C00091CB82 /* UpdateEditFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateEditFormView.swift; sourceTree = "<group>"; };
+		BB0FF8362BA92A3D0091CB82 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		BB0FF8382BA92DFA0091CB82 /* ModelFormType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelFormType.swift; sourceTree = "<group>"; };
 		BB4822BC2BA8EE9D0080B8B6 /* Camera Photos SwiftData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Camera Photos SwiftData.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB4822BF2BA8EE9D0080B8B6 /* Camera_Photos_SwiftDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera_Photos_SwiftDataApp.swift; sourceTree = "<group>"; };
 		BB4822C12BA8EE9D0080B8B6 /* PhotosListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosListView.swift; sourceTree = "<group>"; };
@@ -38,6 +46,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB0FF8312BA926AF0091CB82 /* Model Edits */ = {
+			isa = PBXGroup;
+			children = (
+				BB0FF8322BA926C80091CB82 /* UpdateEditFormViewModel.swift */,
+				BB0FF8342BA928C00091CB82 /* UpdateEditFormView.swift */,
+				BB0FF8382BA92DFA0091CB82 /* ModelFormType.swift */,
+			);
+			path = "Model Edits";
+			sourceTree = "<group>";
+		};
 		BB4822B32BA8EE9D0080B8B6 = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +79,7 @@
 				BB4822C12BA8EE9D0080B8B6 /* PhotosListView.swift */,
 				BB4822D42BA902870080B8B6 /* SampleView.swift */,
 				BB4822CD2BA8EECE0080B8B6 /* SampleModel.swift */,
+				BB0FF8312BA926AF0091CB82 /* Model Edits */,
 				BB4822CF2BA8EF880080B8B6 /* ImagePicker_Camera */,
 				BB4822C32BA8EE9E0080B8B6 /* Assets.xcassets */,
 				BB4822C52BA8EE9E0080B8B6 /* Preview Content */,
@@ -80,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				BB4822D02BA8EF9C0080B8B6 /* Constants.swift */,
+				BB0FF8362BA92A3D0091CB82 /* ImagePicker.swift */,
 			);
 			path = ImagePicker_Camera;
 			sourceTree = "<group>";
@@ -154,11 +174,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB0FF8352BA928C00091CB82 /* UpdateEditFormView.swift in Sources */,
 				BB4822D52BA902870080B8B6 /* SampleView.swift in Sources */,
 				BB4822C22BA8EE9D0080B8B6 /* PhotosListView.swift in Sources */,
 				BB4822CE2BA8EECE0080B8B6 /* SampleModel.swift in Sources */,
+				BB0FF8392BA92DFA0091CB82 /* ModelFormType.swift in Sources */,
 				BB4822C02BA8EE9D0080B8B6 /* Camera_Photos_SwiftDataApp.swift in Sources */,
+				BB0FF8372BA92A3D0091CB82 /* ImagePicker.swift in Sources */,
 				BB4822D12BA8EF9C0080B8B6 /* Constants.swift in Sources */,
+				BB0FF8332BA926C80091CB82 /* UpdateEditFormViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
