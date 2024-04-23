@@ -6,7 +6,9 @@ Each video in the series has its own branch so if you have not started from the 
 
 This is the branch for the completed code for the 2nd Video in the series. 
 
-
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=WT7bYj80gJ0
+" target="_blank"><img src="http://img.youtube.com/vi/WT7bYj80gJ0/0.jpg" 
+alt="PhotosUI Picker" width="480" height="360" border="1" /></a>
 
 If you want to support my work, you can - </br>
 
